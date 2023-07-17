@@ -12,7 +12,7 @@ var tl = gsap.timeline({default: {ease:'ease-in'}});
 tl.from('.char', {
   y: -300,
   stagger:0.03,
-  delay:0.5
+  delay:1.3
 })
 
 .from('p', {
