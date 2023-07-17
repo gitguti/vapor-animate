@@ -23,3 +23,5 @@ opacity:0
   delay:.4,
   duration:1.3
 },"-=2")
+
+.to("#buttonGroup", { opacity: 1, delay: 4});

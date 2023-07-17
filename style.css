@@ -41,27 +41,31 @@ h1,p {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 50px;
   border: 1px solid rgb(48 165 230);
-  padding: 0.6em 1.2em;
+  padding: 0.2em 0.8em;
   font-size: 1em;
   font-weight: 500;
+  height: 28px;
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s ease-in-out, transform 0.5s ease-in-out;
   background: transparent;
 }
 
-.button_filled:hover {
-  transform: scale(1.05);
+.button_filled {
+  background-color: #30a5e6;
 }
 
-.button_filled {
-  background-color: #1a1a1a;
+.button_outlined {
+  background-color: transparent;
+  border: 1px solid #30a5e6;
+  color: #30a5e6;
 }
+
 a {
   font-weight: 500;
-  color: white;
+  color: #30a5e6;
   text-decoration: inherit;
 }
 
@@ -74,8 +78,9 @@ a {
   margin: 0 auto;
   align-items: center;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   z-index: 5;
+  opacity: 0;
 }
 
 .hero_bg {
@@ -107,5 +112,6 @@ a {
   }
   .button_group {
     flex-direction: row;
+    gap: 5px;
   }
 }
