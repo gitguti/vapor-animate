@@ -11,8 +11,8 @@ const text = new SplitType('p', {charClass: 'char2'})
 var tl = gsap.timeline({default: {ease:'ease-in'}});
 tl.from('.char', {
   y: -300,
-  stagger:0.05,
-  delay:1
+  stagger:0.03,
+  delay:0.5
 })
 
 .from('p', {
